@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 from itertools import combinations
 
 class ColorsFactory():
