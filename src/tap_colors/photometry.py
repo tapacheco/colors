@@ -16,6 +16,6 @@ class ColorsFactory():
             self.colors_GCs = pd.concat([self.colors_GCs, data_subtraction], axis=1)
 
     def write_output(self, file):
-        self.colors_GCs.to_csv(file, sep=' ', index=False)
+        self.colors_GCs.to_csv(file, sep=',', index=False)
         
 
